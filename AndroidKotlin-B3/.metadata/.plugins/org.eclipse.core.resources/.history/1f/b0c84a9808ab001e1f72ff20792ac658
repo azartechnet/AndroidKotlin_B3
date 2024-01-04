@@ -28,7 +28,7 @@
 
 fun main(args:Array<String>)
 {
-	var salary=1000;
+	val salary=1000;
 	salary=2000;
 	println("Updated value is::"+salary)
 }

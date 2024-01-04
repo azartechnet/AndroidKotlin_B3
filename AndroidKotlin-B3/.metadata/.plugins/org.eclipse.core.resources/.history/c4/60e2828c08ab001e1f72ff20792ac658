@@ -18,17 +18,10 @@
 	println("Your pid is $pid Your pname is $pname")
 }*/
 
-/*fun main(args:Array<String>)
+fun main(args:Array<String>)
 {
 	var pid:Int=2001
 	var pname:String="apple"
 	println("Your productId is $pid and Your productname is $pname")
 	
-}*/
-
-fun main(args:Array<String>)
-{
-	var salary=1000;
-	salary=2000;
-	println("Updated value is::"+salary)
 }
