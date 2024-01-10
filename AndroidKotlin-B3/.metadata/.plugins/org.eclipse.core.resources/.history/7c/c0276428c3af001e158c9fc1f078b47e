@@ -61,7 +61,5 @@ fun main(args:Array<String>)
 	var a=100;
 	var b=200;
 	println("LogicalAND::"+((a<b)&&(b>a)))
-	println("LogicalAND::"+((a>b)&&(b>a)))
-	println("LogicalOR::"+((a>b)||(b>a)))
-	println("LogicalNOT::"+(!(a>b)))
+	
 }

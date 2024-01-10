@@ -46,22 +46,13 @@
 	print("Module::"+(a%b))
 }*/
 
-/*fun main(args:Array<String>)
-{
-	var a=100;
-	var b=200;
-	println("Lessthan::"+(a<b))
-	println("Greaterthan::"+(a>b))
-	println("LessthanEqualto::"+(a<=b))
-	println("Equal to::"+(a==b))
-	println("NotEqual::"+(a!=b))
-}*/
 fun main(args:Array<String>)
 {
 	var a=100;
 	var b=200;
-	println("LogicalAND::"+((a<b)&&(b>a)))
-	println("LogicalAND::"+((a>b)&&(b>a)))
-	println("LogicalOR::"+((a>b)||(b>a)))
-	println("LogicalNOT::"+(!(a>b)))
+	print("Lessthan::"+(a<b))
+	print("Greaterthan::"+(a>b))
+	print("LessthanEqualto::"+(a<=b))
+	print("Equal to::"+(a==b))
+	print("NotEqual::"+(a!=b))
 }

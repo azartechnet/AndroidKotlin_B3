@@ -1,8 +1,0 @@
-fun main(args:Array<String>)
-{
-	
-	var name="welcome"
-	val pid=1001;
-	println("Welcome to the Application")
-	println("Your value is::${name}")
-}

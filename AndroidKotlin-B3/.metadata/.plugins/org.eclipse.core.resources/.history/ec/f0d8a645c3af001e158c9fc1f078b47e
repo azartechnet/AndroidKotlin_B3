@@ -63,5 +63,4 @@ fun main(args:Array<String>)
 	println("LogicalAND::"+((a<b)&&(b>a)))
 	println("LogicalAND::"+((a>b)&&(b>a)))
 	println("LogicalOR::"+((a>b)||(b>a)))
-	println("LogicalNOT::"+(!(a>b)))
 }
