@@ -1,3 +1,6 @@
+import kotlin.io.readLine
+import java.util.Scanner
+
 //fun main(args:Array<String>)
 //{
 //	
@@ -56,7 +59,7 @@
 	println("Equal to::"+(a==b))
 	println("NotEqual::"+(a!=b))
 }*/
-fun main(args:Array<String>)
+/*fun main(args:Array<String>)
 {
 	var a=100;
 	var b=200;
@@ -64,4 +67,21 @@ fun main(args:Array<String>)
 	println("LogicalAND::"+((a>b)&&(b>a)))
 	println("LogicalOR::"+((a>b)||(b>a)))
 	println("LogicalNOT::"+(!(a>b)))
+}*/
+//Runtime Inputs
+/*fun main(args:Array<String>)
+{
+	println("Enter the Name::")
+	val name=readLine();
+	println("Enter the Age is::")
+	val age:Int=Integer.valueOf(readLine());
+	println("Your Name is::${name}Your Age is::${age}")
+}*/
+
+fun main(args:Array<String>)
+{
+	val r1=Scanner(System.`in`)
+	println("Enter your age is::")
+	val age=r1.nextInt();
+	println("Your age is::"+age)
 }
